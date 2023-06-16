@@ -1,15 +1,26 @@
 *{
-    background-color: #fff;
+    /* background-color: #fff; */
     color: #151e3d;
 }
 body{
     overflow-x: hidden;
 }
+.navbar{
+    width: 100%;
+    position: fixed;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+    background-color: white;
+}
+#top{
+    margin-bottom: 2;
+}
 .mass{
     background-image: url('../images/bground.jpg');
     width: 101%;
     height: 75%;
-    margin-top: -1.5%;
+    margin-top: 6%;
     margin-bottom: 0.5%;
     margin-left: -1.5%;
 }
@@ -19,14 +30,17 @@ body{
     margin-top: -30%;
     margin-left: 57%;
 }
-ul{
+.ul{
     list-style-type: none;
     display: flex;
-    padding: 15px;
+    margin-bottom: -30px;
     font-weight: bold;
     font-size: large;
     font-family: sans-serif;
     gap: 35px;
+}
+.ul li:hover{
+    color: aqua;
 }
 .submit{
     color: #151e3d;
@@ -74,7 +88,7 @@ ul{
 button{
     cursor: pointer;
     background-color: green;
-    margin-left: 10px;
+    margin-left: -50px;
     margin-right: -10px;
     margin-bottom: 20px;
     color: aliceblue;
@@ -83,6 +97,9 @@ button{
     height: 55px;
     width: 175px;
     border-radius: 5px;
+}
+.button button:hover{
+    background-color: black;
 }
 .text1{
     color: #151e3d;
@@ -128,17 +145,34 @@ button{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 70px;
+    /* border: 2px black solid; */
 }
-.card{
-    width: 430px;
+.texts{
+    /* border: black 2px solid; */
+    width: 90%;
+    font-family: sans-serif;
+    padding: 5%;
 }
+.divs{
+
+    /* border: solid black 2px; */
+    box-shadow: 2px 2px 8px 3px darkgrey ;
+    border-radius: 10px;
+    padding-bottom: 3%;
+}
+.shift{
+    margin-top: 18%;
+    font-family: sans-serif;
+}
+.x{
+    font-family: sans-serif;
+    margin-top: 11%;
+}
+
 .new{
-    width: 430px;
-    margin-left: 20px;
-}
-.read{
-    width: 430px;
-    margin-left: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
 }
 .header2{
     color: #151e3d;
