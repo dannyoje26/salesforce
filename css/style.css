@@ -1,5 +1,4 @@
 *{
-    /* background-color: #fff; */
     color: #151e3d;
 }
 body{
@@ -19,11 +18,12 @@ body{
 }
 .mass{
     background-image: url('../images/bground.jpg');
-    width: 101%;
+    width: 102%;
     height: 75%;
     margin-top: 6%;
     margin-bottom: 0.5%;
-    margin-left: -1.5%;
+    margin-left: -1.0%;
+    margin-right: -7%;
 }
 .woman{
     display: flex;
@@ -67,6 +67,7 @@ body{
     text-align: center;
     display: block;
     padding: -15px;
+    margin-top: 15px;
     margin-left: 270px;
     margin-right: 5px;
     font-family: serif;
@@ -86,22 +87,28 @@ body{
     width: 50px;
     border-radius: 25px;
 }
-.word{
+.globe{
+    cursor: pointer;
+    display: flex;
+    margin-top: 20px;
+}
+/* .word{
     display: flex;
     padding: 20px;
-    margin-left: -60px;
-}
+    margin-left: 160px;
+} */
 button{
     cursor: pointer;
     background-color: green;
-    margin-left: -50px;
-    margin-right: -10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    /* margin-right: -10px; */
     margin-bottom: 20px;
     color: aliceblue;
     font-weight: 800;
     text-align: center;
     height: 55px;
-    width: 175px;
+    width: 145px;
     border-radius: 5px;
 }
 .button button:hover{
@@ -116,19 +123,22 @@ button{
     margin-left: 10%;
 }
 .text2{
-    font-size: 25px;
-    font-family: sans-serif, serif;
+    font-size: 23px;
+    font-family: sans-serif;
     margin-right: -20px;
     margin-top: -30px;
     margin-left: 10%;
 }
 .btn1{
     cursor: pointer;
+    color: white;
     background-color: dodgerblue;
     border-color: dodgerblue;
-    width: 190px;
     margin-top: 20px;
     margin-left: 10%;
+}
+.btn1:hover{
+    background-color: #151e3d;
 }
 .btn2{
     cursor: pointer;
@@ -137,6 +147,11 @@ button{
     color:  dodgerblue;
     margin-top: 20px;
     margin-left: 2%;
+}
+.btn2:hover{
+    background-color: rgba(240, 240, 240, 0.74);
+    border-color: black;
+    color: black;
 }
 .header{
     color: #151e3d;
@@ -151,17 +166,13 @@ button{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 70px;
-    /* border: 2px black solid; */
 }
 .texts{
-    /* border: black 2px solid; */
     width: 90%;
     font-family: sans-serif;
     padding: 5%;
 }
 .divs{
-
-    /* border: solid black 2px; */
     box-shadow: 2px 2px 8px 3px darkgrey ;
     border-radius: 10px;
     padding-bottom: 3%;
@@ -199,6 +210,64 @@ button{
     font-weight: 700;
 }
 .second{
+    margin-top: 5%;
+    text-align: center;
+    font-size: larger;
+}
+.space{
     text-align: center;
     font-size: large;
+}
+.btn3{
+    cursor: pointer;
+    background-color: #fff;
+    color: dodgerblue;
+    border-color: dodgerblue;
+    margin-left: 43%;
+    width: 230px;
+}
+.btn3:hover{
+    background-color: rgba(240, 240, 240, 0.74);
+    border-color: black;
+    color:black;
+}
+.all2{
+    width: 50px;
+    display: flex;
+    gap: 60px;
+    margin-top: 55px;
+    margin-left: 33%;
+    height: 10x;
+}
+.sale{
+    width: 55px;
+    border: 20px solid #fff;
+    border-radius: 300px;
+    box-shadow: 2px 4px 4px 0px darkgrey ;
+}
+.pic{
+    background-image: url('../images/innovation.jpg');
+    width: 100%;
+    margin-top: 3%;
+}
+.big{
+    text-align: center;
+    font-size: larger;
+}
+.small{
+    font-weight: normal;
+    text-align: center;
+}
+.btn4{
+    width: 250px;
+    background-color: #fff;
+    color: dodgerblue;
+    border-color: dodgerblue;
+    margin-top: 40px;
+    margin-left: 43%;
+}
+.btn4:hover{
+    background-color: rgba(240, 240, 240, 0.74);
+    border-color: black;
+    color:black;
 }
