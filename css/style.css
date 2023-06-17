@@ -4,6 +4,7 @@
 }
 body{
     overflow-x: hidden;
+    font-family: sans-serif;
 }
 .navbar{
     width: 100%;
@@ -79,6 +80,11 @@ body{
     margin-left: -25px;
     margin-right: 20px;
     padding: 20px;
+}
+.tag :hover{
+    background-color: aquamarine;
+    width: 50px;
+    border-radius: 25px;
 }
 .word{
     display: flex;
@@ -180,4 +186,19 @@ button{
     text-align: center;
     margin-top: 8%;
     font-family: sans-serif;
+}
+.row{
+    display: flex;
+    gap: 80px;
+    margin-left: 10%;
+}
+.row img{
+    width: 300px;
+}
+.bold{
+    font-weight: 700;
+}
+.second{
+    text-align: center;
+    font-size: large;
 }
