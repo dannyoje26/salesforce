@@ -83,9 +83,9 @@ body{
     margin-right: 20px;
     padding: 20px;
 }
-.tag :hover{
+.fa-solid:hover{
     background-color: aquamarine;
-    width: 50px;
+    /* width: 50px; */
     border-radius: 25px;
 }
 .globe{
@@ -594,7 +594,8 @@ button{
     margin-left: 10%;
 }
 .cog{
-    width: 35%;
+    width: 50%;
+    margin-top: 70px;
 }
 .jar{
     margin-top: -30%;
@@ -603,7 +604,7 @@ button{
 .fye{
     font-size: x-large;
     font-weight: bolder;
-    margin-top: 70px;
+    margin-top: 100px;
 }
 .kite{
     background-color: #fff;
@@ -644,4 +645,81 @@ button{
 }
 .fur{
     width: 80%;
+}
+.long{
+    display: flex;
+    gap: 5%;
+    margin-top: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 2px 2px 8px 3px #BDCCD9 ;
+    border-radius: 25px;
+
+}
+.vet{
+    width: 80%;
+    font-size: larger;
+    margin-left: 8%;
+    margin-bottom: 250px;
+    margin-right: -350px;
+    border: 3px #151e3d solid;
+    margin-top: 10%;
+}
+.rio{
+    width: 40%;
+    height: 50%;
+    /* margin-left: 48%; */
+    border: 3px #151e3d solid;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+}
+.try{
+    cursor: pointer;
+    color: white;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+    width: 180px;
+    margin-top: 20px;
+}
+.try:hover{
+    background-color: #151e3d;
+}
+.usa{
+    display: flex;
+    gap: 170px;
+    margin-top: 8%;
+    margin-left: 10%;
+    font-size: small;
+    line-height: 40px;
+    text-decoration: none;
+}
+.gojo{
+    cursor: pointer;
+}
+.abra{
+    display: block;
+    list-style: none;
+}
+.fa{
+    display: flex;
+    list-style: none;
+    border: 4px black solid;
+    margin-left: -20%;
+    gap: 30px;
+}
+.not{
+    text-decoration: none;
+    color: #2269AE;
+}
+.up{
+    list-style: none;
+    color: #2269AE;
+}
+.list{
+    list-style: none;
+    color: #2269AE;
+}
+.damn{
+    list-style: none;
+    color: #2269AE;
 }
