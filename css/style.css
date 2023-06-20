@@ -178,6 +178,7 @@ button{
 .shift{
     margin-top: 18%;
     font-family: sans-serif;
+    
 }
 .x{
     font-family: sans-serif;
@@ -520,10 +521,18 @@ button{
     font-size: larger;
     margin-top: 100px;
 }
+.mind{
+    font-weight: bolder;
+    margin-top: 80px;
+    margin-left: 10%;
+    width: 100%;
+    gap: 70px;
+    display: flex;
+}
 .pout{
     font-size: small;
-    background-color: #EAF5FE;
-    border: 8px #EAF5FE solid;
+    background-color: #D2EDFF;
+    border: 8px #D2EDFF solid;
     margin-left: 0px;
     width: 22%;
     margin-top: 40px;
@@ -543,12 +552,96 @@ button{
     text-align: center;
 }
 .show{
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 70px;
     box-shadow: 2px 2px 8px 3px #BDCCD9 ;
     border-radius: 20px;
 }
-.mind{
-    margin-left: 15%;
-    width: 100%;
-    gap: 70px;
-    display: flex;
+.show1{
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 200px;
+    box-shadow: 2px 2px 8px 3px #BDCCD9 ;
+    border-radius: 20px;
+}
+.show2{
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 230px;
+    box-shadow: 2px 2px 8px 3px #BDCCD9 ;
+    border-radius: 20px;
+}
+.b{
+    background-color: #fff;
+    color: dodgerblue;
+    border-color: dodgerblue;
+    border: 3px solid;
+    width: 310px;
+    margin-top: 60px;
+    margin-left: 43%;
+    margin-top: 110px
+}
+.b:hover{
+    background-color: rgba(240, 240, 240, 0.74);
+    border-color: black;
+    color:black;   
+}
+.far{
+    margin-left: 10%;
+}
+.cog{
+    width: 35%;
+}
+.jar{
+    margin-top: -30%;
+    margin-left: 55%;
+}
+.fye{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 70px;
+}
+.kite{
+    background-color: #fff;
+    color: dodgerblue;
+    border-color: dodgerblue;
+    border: 3px solid;
+    width: 170px;
+    margin-left: 55%;
+    margin-top: 60px
+}
+.kite:hover{
+    background-color: rgba(240, 240, 240, 0.74);
+    border-color: black;
+    color:black; 
+}
+.dev{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 70px;
+    text-align: center;
+    margin-top: 150px;
+}
+.trial{
+    cursor: pointer;
+    color: white;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 43%;
+}
+.trial:hover{
+    background-color: #151e3d;
+}
+.plac{
+    margin-left: 18%;
+    margin-top: 3%;
+}
+.fur{
+    width: 80%;
 }
