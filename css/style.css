@@ -416,9 +416,6 @@ button{
     width: 700px;
     margin-top: -350px;
 }
-.trees{
-    background: linear-gradient( #FDFEFF, #DDEFFE);
-}
 .bground{
     background-image: url('../images/trees.webp');
     width: 100%;
@@ -479,7 +476,7 @@ button{
 }
 .over{
     text-align: center;
-    padding-top: 15%;
+    margin-top: 20%;
     font-size: larger;
 }
 .fine{
@@ -703,9 +700,7 @@ button{
     cursor: pointer;
     display: flex;
     list-style: none;
-    width: 100%;
     gap: 15px;
-    margin-left: -40px;
     font-size: 30px;
 }
 .not{
@@ -760,7 +755,6 @@ footer{
 .xan{
     color: #019ADC;
     font-size: small;
-    /* gap: 3%; */
 }
 .lore{
     margin-left: 17%;
